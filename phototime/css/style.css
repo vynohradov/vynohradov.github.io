@@ -1,0 +1,545 @@
+@font-face {
+    font-family: GothamRoundedBold;
+    src: url(../fonts/Gotham-Rounded-Bold.ttf);
+}
+
+@font-face {
+    font-family: GothamRoundedMedium;
+    src: url(../fonts/Gotham-Rounded-Medium.ttf);
+}
+
+@font-face {
+    font-family: GothamRoundedBook;
+    src: url(../fonts/Gotham-Rounded-Book.ttf);
+}
+
+@font-face {
+    font-family: GothamRoundedLight;
+    src: url(../fonts/Gotham-Rounded-Light.ttf);
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    color: black;
+    background-color: rgb(192, 192, 192);
+}
+
+ul, img {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    width: 1280px;
+    margin: auto;
+    margin-top: 0;
+    background-color: white;
+}
+
+.first_section {
+    height: 745px;
+    background-image: url(../img/backgrounds/bg_1.jpg);
+}
+
+.second_section {
+    height: 494px;
+    background-color: rgb(245, 246, 247);
+    background-image: url(../img/backgrounds/hand_iphone.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.third_section {
+    height: 560px;
+    background: white url(../img/backgrounds/flat_iphone.png) no-repeat bottom left;
+}
+
+.left_menu {
+    vertical-align: middle;
+    display: inline;
+    list-style: none;
+    text-align: center;
+    margin-left: 30px;
+
+}
+
+.left_menu li {
+    text-align: center;
+    display: inline;
+    line-height: 160px;
+    letter-spacing: 2px;
+}
+
+.left_menu li:nth-child(1) {
+    padding-right: 60px;
+}
+
+.right_menu {
+    display: inline;
+    list-style: none;
+    text-align: center;
+
+}
+
+.right_menu li {
+    display: inline;
+    line-height: 160px;
+    letter-spacing: 2px;
+
+}
+
+.right_menu li:nth-child(2) {
+    padding-left: 80px;
+}
+
+.logo {
+    text-align: center;
+    vertical-align: middle;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.navigation {
+    text-align: center;
+}
+
+.navigation ul li a {
+    color: white;
+    font-size: 12pt;
+    font-family: GothamRoundedBold, sans-serif;
+    text-decoration: none;
+}
+
+.container {
+    color: white;
+    text-align: center;
+
+}
+
+.container p:first-child {
+    font-size: 35px;
+    font-family: GothamRoundedBold, sans-serif;
+    margin-top: 175px;
+    margin-left: 11px;
+    margin-bottom: -13px;
+    letter-spacing: 6px;
+    padding: 0;
+
+}
+
+.container p:nth-child(2) {
+    line-height: 25px;
+    font-size: 16px;
+    font-family: GothamRoundedMedium, sans-serif;
+    padding: 0;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+
+}
+
+.button {
+    font-family: GothamRoundedBold, sans-serif;
+    width: 165px;
+    height: 50px;
+    color: white;
+    background-color: rgb(22, 160, 133);
+    margin-top: 4px;
+    font-weight: 900;
+    border: none;
+    padding-top: 6px;
+    letter-spacing: 1px;
+    border-radius: 5px 5px 5px 5px;
+
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: rgb(20, 175, 128);
+
+}
+
+.favicons {
+    margin-top: 225px
+}
+
+.favicons a:nth-child(2) {
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+.s2_text H3 {
+    margin-top: 0;
+    padding-top: 0;
+    color: rgb(22, 160, 133);
+    letter-spacing: 2px;
+    word-spacing: 6px;
+    font-family: GothamRoundedBook, sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+
+}
+
+.s2_text p {
+    padding-top: 22px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-family: GothamRoundedLight, sans-serif;
+    font-size: 13px;
+
+}
+
+.s2_text {
+    margin-left: 125px;
+    padding-top: 113px;
+    width: 430px;
+    height: 220px;
+}
+
+.btn_pos {
+    font-family: GothamRoundedBold, sans-serif;
+    width: 193px;
+    height: 50px;
+    color: white;
+    background-color: rgb(22, 160, 133);
+    font-weight: 900;
+    border: none;
+    padding-top: 6px;
+    letter-spacing: 1px;
+    margin-left: 130px;
+    margin-top: 20px;
+    border-radius: 5px 5px 5px 5px;
+
+}
+
+.btn_pos:hover {
+    cursor: pointer;
+    background-color: rgb(20, 175, 128);
+
+}
+
+ul li:hover a {
+    text-shadow: 0 0 5px white;
+}
+
+.fourth_section {
+    height: 485px;
+    background-color: rgb(245, 246, 247);
+    text-align: center;
+}
+
+.s3_text {
+    width: 450px;
+    height: 190px;
+    margin-left: 770px;
+    padding-top: 143px
+}
+
+.s3_text h3 {
+    margin-top: 0;
+    padding-top: 0;
+    color: rgb(22, 160, 133);
+    letter-spacing: 2px;
+    word-spacing: 6px;
+    font-family: GothamRoundedBook, sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.s3_text p {
+    padding-top: 18px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    font-family: GothamRoundedLight, sans-serif;
+    font-size: 13px;
+}
+
+.s3_button {
+    font-family: GothamRoundedBold, sans-serif;
+    width: 193px;
+    height: 50px;
+    color: white;
+    background-color: rgb(22, 160, 133);
+    font-weight: 900;
+    border: none;
+    padding-top: 6px;
+    letter-spacing: 1px;
+    margin-left: 770px;
+    margin-top: 13px;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+
+.s3_button:hover {
+    background-color: rgb(20, 175, 128);
+}
+
+.counter {
+    font-family: GothamRoundedBold, sans-serif;
+    padding-left: 769px;
+    padding-top: 25px;
+    font-size: 15px;
+}
+
+.angle {
+    padding-left: 770px;
+    margin-top: -8px;
+}
+
+.angle img {
+    padding-right: 13px
+}
+
+.fiveth_section {
+    height: 787px;
+    background-image: url(../img/backgrounds/bg_5.jpg);
+    text-align: center;
+
+}
+
+.fiveth_section h2 {
+    display: block;
+    margin-top: 0;
+    padding-top: 350px;
+    padding-bottom: 7px;
+    color: white;
+    font-family: GothamRoundedBook, sans-serif;
+    letter-spacing: 3px;
+}
+
+.fiveth_section form {
+    margin: 0;
+    padding: 0;
+    width: 340px;
+    height: 60px;
+    display: inline-block;
+    position: relative;
+
+}
+
+.fiveth_section input[type="email"] {
+    height: 60px;
+    width: 280px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 4px 0 0 4px;
+    padding-left: 15px;
+    font-family: GothamRoundedMedium, sans-serif;
+    font-size: 20px;
+}
+
+.fiveth_section button {
+    border: 0;
+    height: 60px;
+    width: 60px;
+    margin-left: -5px;
+    background: rgb(22, 160, 133) url("../img/check.png") no-repeat center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+
+}
+
+.fiveth_section button:hover {
+    background-color: rgb(20, 175, 128);
+}
+
+.sixth_section {
+    margin: 0;
+    padding: 85px 0 0 0;
+    height: 309px;
+    background-color: rgb(245, 246, 247);
+    text-align: center;
+}
+
+.sixth_section h2 {
+    font-family: GothamRoundedBook, sans-serif;
+    font-size: 18px;
+    letter-spacing: 4px;
+    padding: 0;
+    margin: 0;
+}
+
+.sixth_section p {
+    font-family: GothamRoundedMedium, sans-serif;
+    font-size: 12px;
+    margin-top: 10px;
+    padding-top: 0;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.sixth_section form {
+    width: 620px;
+    height: 55px;
+    margin: 30px 0 0 0;
+    display: inline-block;
+    position: relative;
+}
+
+#appstore {
+    position: absolute;
+    height: 55px;
+    width: 296px;
+    top: 0;
+    left: 0;
+    background-color: rgb(26, 188, 156);
+    color: white;
+    font-family: GothamRoundedBold, sans-serif;
+    font-size: 18px;
+    text-align: left;
+    border: 0;
+    padding-left: 25px;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+
+}
+
+#appstore div {
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    background: rgb(22, 160, 133) url("../img/icons/favico_apple.png") no-repeat center;
+    top: 0;
+    right: 0;
+    border-radius: 0 5px 5px 0;
+
+}
+
+#appstore:hover div {
+    background-color: rgb(20, 175, 128);
+}
+
+#playstore {
+    position: absolute;
+    height: 55px;
+    width: 296px;
+    top: 0;
+    right: 0;
+    background-color: rgb(26, 188, 156);
+    color: white;
+    font-family: GothamRoundedBold, sans-serif;
+    font-size: 18px;
+    text-align: left;
+    border: 0;
+    border-radius: 5px 5px 5px 5px;
+    padding-left: 25px;
+    cursor: pointer;
+}
+
+#playstore div {
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    background: rgb(22, 160, 133) url("../img/icons/favico_android.png") no-repeat center;
+    top: 0;
+    right: 0;
+    border-radius: 0 5px 5px 0;
+
+}
+
+#playstore:hover div {
+    background-color: rgb(20, 175, 128);
+}
+
+footer {
+    margin: 0;
+    padding: 45px 0 0 128px;
+    height: 132px;
+    background-color: white;
+    position: relative;
+}
+
+footer h3 {
+    margin: 0;
+    padding: 0;
+    font-family: GothamRoundedMedium, sans-serif;
+    color: black;
+    font-size: 14px;
+    letter-spacing: 2px;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    font-family: GothamRoundedMedium, sans-serif;
+
+}
+
+footer p {
+    letter-spacing: 1px;
+    font-family: GothamRoundedMedium, sans-serif;
+}
+
+.footer_logo {
+    width: 59px;
+    height: 55px;
+    background: url("../img/icons/logo_green.png") no-repeat center;
+    position: absolute;
+    top: 37px;
+    right: 128px;
+}
+
+.pseudo_pict {
+    float: left;
+    width: 250px;
+    height: 244px;
+    text-align: center;
+    margin-left: 85px;
+}
+
+.pseudo_pict img {
+    margin: 0;
+    margin-top: 45px;
+}
+
+.pseudo_pict h3 {
+    line-height: 37px;
+    font-family: GothamRoundedBold, sans-serif;
+}
+
+.pseudo_pict p {
+    margin: 0;
+    margin-top: -8px;
+    font-family: GothamRoundedBook, sans-serif;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+.arrows {
+    width: 1145px;
+    height: 120px;
+    text-align: right;
+    line-height: 205px;
+    padding-right: 135px;
+
+}
+
+.arrows img {
+    display: inline;
+    padding: 0;
+    margin-left: 12px;
+}
+
+.sub_container {
+    margin: 0;
+    padding: 0;
+}
+
+.sub_container .gallery:nth-child(2) {
+    margin-right: 20px;
+}
+
+.sub_container .gallery:nth-child(3) {
+    margin-right: 90px;
+}

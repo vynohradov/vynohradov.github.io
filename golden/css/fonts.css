@@ -1,0 +1,46 @@
+
+/*WisdomScriptAJ*/
+@font-face {
+    font-family: "WisdomScriptAJ";
+    src: url("../fonts/WisdomScript/WisdomScriptAJ.eot");
+    src:
+        local("WisdomScriptAJ"),
+        url("../fonts/WisdomScript/WisdomScriptAJ.woff") format('woff'),
+        url("../fonts/WisdomScript/WisdomScriptAJ.ttf") format('truetype');
+}
+
+/*RobotoSlabRegular*/
+@font-face {
+    font-family: "RobotoSlabRegular";
+    src: url("../fonts/RobotoSlabRegular/RobotoSlabRegular.eot");
+    src:
+    local("RobotoSlabRegular"),
+    url("../fonts/RobotoSlabRegular/RobotoSlabRegular.woff") format('woff'),
+    url("../fonts/RobotoSlabRegular/RobotoSlabRegular.ttf") format('truetype');
+}
+
+/*DroidSerifRegular*/
+@font-face {
+    font-family: "DroidSerifRegular";
+    src: url("../fonts/DroidSerifRegular/DroidSerifRegular.eot");
+    src:
+    local("DroidSerifRegular"),
+    url("../fonts/DroidSerifRegular/DroidSerifRegular.woff") format('woff'),
+    url("../fonts/DroidSerifRegular/DroidSerifRegular.ttf") format('truetype');
+}
+
+/*MontserratRegular*/
+@font-face {
+    font-family: "MontserratRegular";
+    src: url("../fonts/MontserratRegular/MontserratRegular.eot");
+    src:
+    local("MontserratRegular"),
+    url("../fonts/MontserratRegular/MontserratRegular.woff") format('woff'),
+    url("../fonts/MontserratRegular/MontserratRegular.ttf") format('truetype');
+}
+
+/*MontserratBold*/
+@font-face {
+    font-family: "MontserratBold";
+    src: url("../fonts/MontserratBold/Montserrat-Bold.ttf");
+}
