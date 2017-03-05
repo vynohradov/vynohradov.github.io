@@ -1,0 +1,116 @@
+/*frame #1  -------------------------------------*/
+
+.title_section_1 {
+    background: white url(../img/frame_1/background.jpg) no-repeat center center;
+    background-size: cover;
+    min-height: 500px;
+    padding: 15px;
+}
+
+header {
+    width: 100%;
+    min-height: 60px;
+    position: relative;
+}
+
+.header_logo {
+    font-family: WisdomScriptAJ;
+    font-size: 1.5rem;
+    color: rgb(254, 209, 54);
+    text-transform: capitalize;
+    float: left;
+    margin: 10px 0 0 15%;
+}
+
+.menu_block {
+    float: right;
+    margin: 15px 5% 15px 0;
+}
+
+.menu_block ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu_block li {
+    display: inline-block;
+    margin: 0px 10px 0px 15px;
+    padding: 0;
+    list-style: none;
+}
+
+.menu_block a {
+    color: white;
+    padding: 3px 5px;
+    line-height: 100%;
+    font-family: MontserratRegular;
+    font-size: 0.825rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color 500ms;
+}
+
+.menu_block a:hover {
+    color: rgb(254, 209, 54);
+}
+
+.menu_block .disable {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .menu_block {
+        position: relative;
+        min-height: 40px;
+    }
+    .menu_block ul {
+        position: absolute;
+        width: 120px;
+        padding: 5px 0;
+        top: -7px;
+        right: 20px;
+    }
+    .menu_block li {
+        display: none;
+        margin: 0;
+    }
+    .menu_block a {
+        display: block;
+        padding: 5px 5px 5px 32px;
+        text-align: right;
+    }
+    .menu_block .current {
+        display: block;
+    }
+    .menu_block ul:hover li {
+        display: block;
+        margin: 0 0 5px;
+    }
+    .menu_block ul:hover {
+        background-color: rgba(20, 20, 20, 0.3);
+    }
+    .menu_block ul:hover .disable {
+        display: none;
+    }
+}
+
+.header_content {
+    margin-top: 70px;
+    text-align: center;
+    p {
+        color: white;
+        font-family: DroidSerifRegular;
+        font-style: italic;
+        font-size: 1.75rem;
+        text-transform: capitalize;
+    }
+    h1 {
+        color: white;
+        font-family: MontserratBold;
+        font-size: 3em;
+        text-transform: uppercase;
+    }
+}
+
+
+/*-------------------------------frame #1 end*/

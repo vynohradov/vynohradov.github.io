@@ -1,0 +1,76 @@
+@import url("normalize.css");
+@import url("fonts.css");
+@import "button";
+@import "sn_icons";
+@import "section_1";
+@import "section_2";
+@import "section_3";
+@import "section_4";
+@import "section_5";
+@import "section_6";
+@import "section_7";
+
+/*----------Common style------------------------*/
+
+* {
+    box-sizing: border-box;
+    // margin: 0;
+    // padding: 0;
+}
+
+body {
+    background-color: red;
+    width: 100%;
+        font-size: 16px;
+
+    @media (max-width: 1200px) {
+        width: 100%;
+        background-color: green;
+    }
+    @media (max-width: 768px) {
+        width: 100%;
+        background-color: yellow;
+    }
+    @media (max-width: 568px) {
+        width: 100%;
+        background-color: magenta;
+    }
+}
+
+.wrapper {
+    width: 100%;
+    position: relative;
+    background: red;
+}
+
+h2 {
+    text-align: center;
+    font-family: MontserratBold;
+    font-size: 1.75rem;
+    text-transform: uppercase;
+    margin: 0px 0px 10px 0px;
+    padding: 0;
+}
+
+p {
+    font-family: DroidSerifRegular;
+    font-style: italic;
+
+}
+
+footer {
+    height: 65px;
+    background-color: white;
+    text-align: center;
+    padding-top: 25px;
+    position: relative;
+}
+
+footer p {
+    font-family: MontserratRegular;
+    font-style: normal;
+    position: absolute;
+    top: 35px;
+    left: 150px;
+    color: rgb(102, 102, 102);
+}

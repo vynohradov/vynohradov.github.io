@@ -1,0 +1,57 @@
+/*frame #3 -------------------------------------*/
+.portfolio_frame_3 {
+  background-color: #f7f7f7;
+  padding: 45px 15px;
+  text-align: center; }
+
+#items {
+  margin-top: 40px;
+  width: 100%;
+  height: 100%; }
+
+.item {
+  display: inline-block;
+  position: relative;
+  width: 31%;
+  min-width: 240px;
+  max-width: 350px;
+  background-color: white;
+  background-position: top center;
+  background-repeat: no-repeat;
+  margin: 20px 10px;
+  padding: 10px;
+  text-align: center;
+  transition: all 400ms; }
+
+.item img {
+  max-width: 100%;
+  transition: all 400ms; }
+
+.item:hover img {
+  transform: rotate(360deg);
+  max-width: 120%; }
+
+.item:hover {
+  width: 40%; }
+
+.item a {
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: black; }
+
+.item h4 {
+  margin: 0;
+  padding-top: 20px;
+  text-transform: capitalize;
+  font-family: MontserratBold;
+  font-size: 0.8125rem; }
+
+.item p {
+  font-family: DroidSerifRegular;
+  text-transform: capitalize;
+  font-size: 0.625rem; }
+
+/*----------------------------------frame #3 end*/
+
+/*# sourceMappingURL=_section_3.css.map */

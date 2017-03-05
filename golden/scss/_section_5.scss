@@ -1,0 +1,57 @@
+/*frame #5 -------------------------------------*/
+
+.team_frame_5 {
+    background-color: rgb(249, 249, 249);
+    padding: 45px 15px;
+    text-align: center;
+}
+
+.team_frame_5 p:last-child {
+    font-family: RobotoSlabRegular;
+    font-style: normal;
+    font-size: 0.6875rem;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+
+#stuff {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.employee {
+    width: 240px;
+    height: 380px;
+    text-align: center;
+    display: inline-block;
+    margin: 0px 20px 0px 20px;
+}
+
+.photo {
+    width: 220px;
+    height: 220px;
+    background-color: black;
+    border: 6px solid white;
+    border-radius: 50%;
+}
+
+.name h4 {
+    text-transform: capitalize;
+    font-family: MontserratBold;
+    margin: 15px 0px 5px 0px;
+}
+
+.name h5 {
+    text-transform: capitalize;
+    font-family: RobotoSlabRegular;
+    margin: 0px 0px 10px 0px;
+}
+
+.e_thompson {}
+
+.e_massimo {}
+
+.e_mason {}
+
+
+/*----------------------------------frame #5 end*/

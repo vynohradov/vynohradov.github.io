@@ -1,0 +1,43 @@
+.sn_icon {
+  width: 41px;
+  height: 41px;
+  display: inline-block;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.twitter {
+  background-image: url(../img/social/twitter/twitter.png); }
+
+.twitter_inverse {
+  background-image: url(../img/social/twitter/twitter_i.png); }
+
+.twitter_hover:hover {
+  background-image: url("../img/social/twitter/twitter_i_h.png"); }
+
+.facebook {
+  background-image: url("../img/social/facebook/facebook.png"); }
+
+.facebook_inverse {
+  background-image: url("../img/social/facebook/facebook_i.png"); }
+
+.facebook_hover:hover {
+  background-image: url("../img/social/facebook/facebook_i_h.png"); }
+
+.pinterest {
+  background-image: url("../img/social/pinterest/pinterest.png"); }
+
+.pinterest_inverse {
+  background-image: url("../img/social/pinterest/pinterest_i.png"); }
+
+.pinterest_hover:hover {
+  background-image: url("../img/social/pinterest/pinterest_i_h.png"); }
+
+.google_plus {
+  background-image: url("../img/social/google_plus/google_plus.png"); }
+
+.google_plus_inverse {
+  background-image: url("../img/social/google_plus/google_plus_i.png"); }
+
+.google_plus_hover:hover {
+  background-image: url("../img/social/google_plus/google_plus_i_h.png"); }
